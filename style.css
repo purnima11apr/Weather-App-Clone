@@ -138,23 +138,31 @@ body{
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
 
     .search button{
         
         width: 35px;
         height: 35px;
+        padding: 0;
         
     }
 
     .search input{
         height: 40px;
         margin-right: 6px;
+        padding: 3px 10px;
     }
 
     body{
         overflow-y: hidden;
         height: 100vh;
+    }
+
+    .details{
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
     }
     
 }
